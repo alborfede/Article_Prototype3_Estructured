@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useState } from 'react'; // Correcto
 import { Header } from './components/layout/Header';
 import { Footer } from './components/layout/Footer';
 import { AudioPlayerButton } from './components/AudioPlayerButton';
