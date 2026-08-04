@@ -89,6 +89,18 @@ export const ShareMenu: React.FC = () => {
             </a>
 
             <a
+              href="https://bsky.app"
+              className="nyt-share-item"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="nyt-share-icon">
+                <i className="ri-butterfly-line"></i>
+              </span>
+              <span>Bluesky</span>
+            </a>
+
+            <a
               href="https://twitter.com/intent/tweet?text=La%20Argentina%20colonia"
               className="nyt-share-item"
               target="_blank"
